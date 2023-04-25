@@ -2,7 +2,7 @@
 {
     public class Program
     {
-        public static void Main(string[] args) 
+        public static void Main(string[] args)
         {
             //UC1......
             //ProgrammingConstruct programmingConstruct = new ProgrammingConstruct();
@@ -22,8 +22,16 @@
             //obj.LargestOfThree();
             //Console.ReadKey();
             //UC5...........................................
-            ProgrammingConstruct obj = new ProgrammingConstruct();
-            obj.AdmissionEligibility();
+            //ProgrammingConstruct obj = new ProgrammingConstruct();
+            //obj.AdmissionEligibility();
+            //Console.ReadKey();
+            //UC6...............................................
+            //ProgrammingConstruct obj = new ProgrammingConstruct();
+            //obj.CalculateWeekDay();
+            //Console.ReadLine();
+            //UC7..............................................
+            ProgrammingConstruct programmingconstruct = new ProgrammingConstruct();
+            programmingconstruct.ArithmeticProblem();
             Console.ReadKey();
         }
     }
