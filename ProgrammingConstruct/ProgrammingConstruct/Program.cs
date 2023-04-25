@@ -46,8 +46,12 @@
             //programmingconstruct.Factorial();
             //Console.ReadKey();
             //UC11.............................
+            //ProgrammingConstruct programmingconstruct = new ProgrammingConstruct();
+            //programmingconstruct.FlipCoin();
+            //Console.ReadKey();
+            //UC12...............................
             ProgrammingConstruct programmingconstruct = new ProgrammingConstruct();
-            programmingconstruct.FlipCoin();
+            programmingconstruct.ReverseString();
             Console.ReadKey();
         }
     }

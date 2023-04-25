@@ -207,18 +207,25 @@ namespace ProgrammingConstruct
                 {
                     Console.WriteLine($"It's Head");
                     headcount++;
-                
                 }
                 else
                 {
                     Console.WriteLine($"Its Tail");
                     tailscount++;
-
                 }
-                    
             }
             Console.WriteLine("Headcount :" + headcount);
             Console.WriteLine("Headcount :" + tailscount);
+        }
+        //Take a user input word and reverse it using loop.
+        public void ReverseString()
+        {
+            Console.WriteLine("Enter the string");
+            string userstring = Console.ReadLine();
+            int length = userstring.Length;
+            char[] character = userstring.ToCharArray();
+            for (int p = length - 1; p >= 0; p--)
+                Console.Write($"{character[p]}");
         }
     }
 }
