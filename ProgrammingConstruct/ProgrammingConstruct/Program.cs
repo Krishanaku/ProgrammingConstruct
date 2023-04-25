@@ -13,8 +13,13 @@
             //programming.EvenOdd();
             //Console.ReadKey();
             //UC3....................................
-            ProgrammingConstruct program = new ProgrammingConstruct();
-            program.AgeEligible();
+            /* ProgrammingConstruct program = new ProgrammingConstruct();
+             program.AgeEligible();
+             Console.ReadKey();
+            */
+            //UC4...................................
+            ProgrammingConstruct obj = new ProgrammingConstruct();
+            obj.LargestOfThree();
             Console.ReadKey();
         }
     }

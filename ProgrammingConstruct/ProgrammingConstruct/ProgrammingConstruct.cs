@@ -46,5 +46,21 @@ namespace ProgrammingConstruct
             else
                 Console.WriteLine("Not Eligible");
         }
+        //#Write a C# Sharp program to find the largest of three numbers.
+        public void LargestOfThree()
+        {
+            Console.WriteLine("Enter The 3 Integer Value to check Greatest Number: ");
+            int firstValue = int.Parse(Console.ReadLine());
+            int secondValue = int.Parse(Console.ReadLine());
+            int thirdValue = int.Parse(Console.ReadLine());
+            if (firstValue > secondValue && firstValue > thirdValue)
+                Console.WriteLine($"First Value is greater : {firstValue}");
+            else if (secondValue > firstValue && secondValue > thirdValue)
+                Console.WriteLine($"Second Value is greater: {secondValue}");
+            else if (firstValue == secondValue && firstValue == thirdValue && secondValue == firstValue && secondValue == thirdValue && thirdValue == secondValue && thirdValue == firstValue)
+                Console.WriteLine($"All Value are Equals");
+            else
+                Console.WriteLine($"Third Value is greater : {thirdValue}");
+        }
     }
 }
