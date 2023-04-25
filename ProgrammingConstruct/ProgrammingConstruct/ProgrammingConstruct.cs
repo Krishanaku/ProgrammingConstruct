@@ -227,5 +227,15 @@ namespace ProgrammingConstruct
             for (int p = length - 1; p >= 0; p--)
                 Console.Write($"{character[p]}");
         }
+        //while loop to compute sum of first 5 natural numbers
+        public void NaturalNumber()
+        {
+            Console.WriteLine("Enter the Number upto 6");
+            int sum = 0;
+            int value = int.Parse(Console.ReadLine());
+            for (int p = 1; p <= value; p++)
+                sum = sum + p;
+            Console.WriteLine($"Sum of Natural Number : {sum}");
+        }
     }
 }

@@ -50,8 +50,12 @@
             //programmingconstruct.FlipCoin();
             //Console.ReadKey();
             //UC12...............................
+            //ProgrammingConstruct programmingconstruct = new ProgrammingConstruct();
+            //programmingconstruct.ReverseString();
+            //Console.ReadKey();
+            //UC13.......................................
             ProgrammingConstruct programmingconstruct = new ProgrammingConstruct();
-            programmingconstruct.ReverseString();
+            programmingconstruct.NaturalNumber();
             Console.ReadKey();
         }
     }
