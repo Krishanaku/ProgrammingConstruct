@@ -30,8 +30,12 @@
             //obj.CalculateWeekDay();
             //Console.ReadLine();
             //UC7..............................................
+            //ProgrammingConstruct programmingconstruct = new ProgrammingConstruct();
+            //programmingconstruct.ArithmeticProblem();
+            //Console.ReadKey();
+            //UC8..............................................
             ProgrammingConstruct programmingconstruct = new ProgrammingConstruct();
-            programmingconstruct.ArithmeticProblem();
+            programmingconstruct.TableOfTwo();
             Console.ReadKey();
         }
     }

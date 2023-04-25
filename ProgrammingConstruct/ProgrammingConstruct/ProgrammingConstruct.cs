@@ -144,5 +144,16 @@ namespace ProgrammingConstruct
                     break;
             }
         }
+        //Write a program that takes a user input n and prints a table of the powers
+        //of 2 that are less than or equal to 2^n.
+        public void TableOfTwo()
+        {
+            Console.WriteLine("Enter the Number : ");
+            int number = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= number; i++)
+            {
+                Console.WriteLine($"The Table of 2 * {i} = {2 * i}");
+            }
+        }
     }
 }
