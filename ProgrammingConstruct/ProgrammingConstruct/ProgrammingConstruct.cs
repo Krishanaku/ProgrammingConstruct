@@ -155,5 +155,16 @@ namespace ProgrammingConstruct
                 Console.WriteLine($"The Table of 2 * {i} = {2 * i}");
             }
         }
+        //Write a program that reads a number N and prints the sum of squares of
+        //N numbers starting from 1.
+        public void SumOfSquare()
+        {
+            Console.WriteLine("Enter the Number : ");
+            int number = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= number; i++)
+            {
+                Console.WriteLine($"Sum of Square : {i * i}");
+            }
+        }
     }
 }

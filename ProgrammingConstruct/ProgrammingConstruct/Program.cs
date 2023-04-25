@@ -34,8 +34,12 @@
             //programmingconstruct.ArithmeticProblem();
             //Console.ReadKey();
             //UC8..............................................
+            //ProgrammingConstruct programmingconstruct = new ProgrammingConstruct();
+            //programmingconstruct.TableOfTwo();
+            //Console.ReadKey();
+            //UC9................................................
             ProgrammingConstruct programmingconstruct = new ProgrammingConstruct();
-            programmingconstruct.TableOfTwo();
+            programmingconstruct.SumOfSquare();
             Console.ReadKey();
         }
     }
