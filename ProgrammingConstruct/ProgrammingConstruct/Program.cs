@@ -8,9 +8,13 @@
             //ProgrammingConstruct programmingConstruct = new ProgrammingConstruct();
             //programmingConstruct.AcceptInteger();
             //Console.ReadKey();
-            //UC2...........................
-            ProgrammingConstruct programming = new ProgrammingConstruct();
-            programming.EvenOdd();
+            //UC2..............................
+            //ProgrammingConstruct programming = new ProgrammingConstruct();
+            //programming.EvenOdd();
+            //Console.ReadKey();
+            //UC3....................................
+            ProgrammingConstruct program = new ProgrammingConstruct();
+            program.AgeEligible();
             Console.ReadKey();
         }
     }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,8 +22,7 @@ namespace ProgrammingConstruct
             else
                 Console.WriteLine("Both are Different");
         }
-
-        //Even Odd
+        
         //2. Write a C# Sharp program to check whether a given number is even or
         //odd.
         public void EvenOdd()
@@ -33,6 +33,18 @@ namespace ProgrammingConstruct
                 Console.WriteLine("Even Number");
             else
                 Console.WriteLine("Odd Number");
+        }
+
+        //3. Write a C# Sharp program to read the age of a candidate and
+        //determine whether it is eligible for casting his/her own vote.
+        public void AgeEligible()
+        {
+            Console.WriteLine("Enter Your Age to Check Eligible Or Not : ");
+            int firstInteger = Convert.ToInt32(Console.ReadLine());
+            if (firstInteger >= 18)
+                Console.WriteLine("Eligible");
+            else
+                Console.WriteLine("Not Eligible");
         }
     }
 }
