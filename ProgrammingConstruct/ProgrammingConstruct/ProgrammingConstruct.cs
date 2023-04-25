@@ -115,7 +115,7 @@ namespace ProgrammingConstruct
                     break;
             }
         }
-        //Take 2 numbers has user inputs and perform arithmetic operations on it.
+        //UC7..........Take 2 numbers has user inputs and perform arithmetic operations on it.
         //i.e Addition, Subtraction, Multiplication and Division using switch Case.
         public void ArithmeticProblem()
         {
@@ -144,7 +144,7 @@ namespace ProgrammingConstruct
                     break;
             }
         }
-        //Write a program that takes a user input n and prints a table of the powers
+        //UC8............Write a program that takes a user input n and prints a table of the powers
         //of 2 that are less than or equal to 2^n.
         public void TableOfTwo()
         {
@@ -155,7 +155,7 @@ namespace ProgrammingConstruct
                 Console.WriteLine($"The Table of 2 * {i} = {2 * i}");
             }
         }
-        //Write a program that reads a number N and prints the sum of squares of
+        //UC9..........Write a program that reads a number N and prints the sum of squares of
         //N numbers starting from 1.
         public void SumOfSquare()
         {
@@ -164,6 +164,33 @@ namespace ProgrammingConstruct
             for (int i = 1; i <= number; i++)
             {
                 Console.WriteLine($"Sum of Square : {i * i}");
+            }
+        }
+        //UC10...............Write a program that computes a factorial of a number taken as input
+        //5 Factorial – 5! = 1 * 2 * 3 * 4 * 5
+        public void Factorial()
+        {
+            Console.WriteLine("Enter the number to find Factorial : ");
+            int value = int.Parse(Console.ReadLine());
+            int fact = 1;
+            int temp = value;
+            if (value == 0)
+            {
+                Console.WriteLine("Factoria of Zero is Zero");
+            }
+            else if (value < 0)
+            {
+                Console.WriteLine("Factorial of Negative Number is not Possible");
+            }
+            else
+            {
+                int i = 0;
+                while (i < value)
+                {
+                    fact = fact * value;
+                    value--;
+                }
+                Console.WriteLine($"Factorial of {temp} is {fact}");
             }
         }
     }
