@@ -18,8 +18,12 @@
              Console.ReadKey();
             */
             //UC4...................................
+            //ProgrammingConstruct obj = new ProgrammingConstruct();
+            //obj.LargestOfThree();
+            //Console.ReadKey();
+            //UC5...........................................
             ProgrammingConstruct obj = new ProgrammingConstruct();
-            obj.LargestOfThree();
+            obj.AdmissionEligibility();
             Console.ReadKey();
         }
     }
