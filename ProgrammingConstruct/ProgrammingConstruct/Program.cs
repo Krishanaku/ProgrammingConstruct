@@ -42,8 +42,12 @@
             //programmingconstruct.SumOfSquare();
             //Console.ReadKey();
             //UC10..............................................
+            //ProgrammingConstruct programmingconstruct = new ProgrammingConstruct();
+            //programmingconstruct.Factorial();
+            //Console.ReadKey();
+            //UC11.............................
             ProgrammingConstruct programmingconstruct = new ProgrammingConstruct();
-            programmingconstruct.Factorial();
+            programmingconstruct.FlipCoin();
             Console.ReadKey();
         }
     }

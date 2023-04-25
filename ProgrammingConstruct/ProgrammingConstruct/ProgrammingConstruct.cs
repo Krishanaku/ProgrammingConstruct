@@ -193,5 +193,32 @@ namespace ProgrammingConstruct
                 Console.WriteLine($"Factorial of {temp} is {fact}");
             }
         }
+        //Perform Flip Coin problem till either Heads or Tails wins 20 times.
+        public void FlipCoin()
+        {
+            int flipCoin = 1;
+            int headcount = 0;
+            int tailscount = 0;
+            for (int i = 0; i < 20; i++)
+            {
+                Random random = new Random();
+                int value = random.Next(2);
+                if (flipCoin == value)
+                {
+                    Console.WriteLine($"It's Head");
+                    headcount++;
+                
+                }
+                else
+                {
+                    Console.WriteLine($"Its Tail");
+                    tailscount++;
+
+                }
+                    
+            }
+            Console.WriteLine("Headcount :" + headcount);
+            Console.WriteLine("Headcount :" + tailscount);
+        }
     }
 }
